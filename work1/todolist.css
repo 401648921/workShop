@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+body{
+    background-color:#fa7c69;
+}
+#main{
+    position: absolute;
+    height:70%;
+    width:30%;
+    left:35%;
+    top:15%;
+    background-color: white;
+    box-shadow: 0 1px 25px 5px #808080
+}
+.main-title{
+    position: relative;
+    font-size: 30px;
+    margin-left: 40%;
+    font-family: 'Gochi Hand', cursive;
+}
+.main-date{
+    position: relative;
+    top:0px;
+    left:60%;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Gochi Hand', cursive;
+}
+.task-input{
+    position: relative;
+    height:60px;
+    width:80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.task-input input{
+    height:40px;
+    width:80%;
+    font-size: 25px;
+}
+.bottom-input{
+    position: relative;
+    height:40px;
+    margin-top: -10px;
+    display: none;
+}
+.botton-input{
+    position: relative;
+    height:40px;
+    margin-top: -10px;
+}
+.task-infor{
+    position: relative;
+    left:10%;
+    width:80%;
+    height:70%;
+    top:20px;
+    overflow: auto;
+}
+.none-title{
+    position: relative;
+    margin-left: 25%;
+    font-size: 30px;
+    color: #808080;
+}
+.task-in input{
+    height:40px;
+    width:73%;
+    font-size: 25px;
+    border: 0;
+    background-color: aquamarine;
+    outline: white; 
+}
+.task-in{
+    width:100%;
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+.task-in[completed] input{
+    height:40px;
+    width:73%;
+    font-size: 25px;
+    border: 0;
+    background-color: pink;
+    outline: white; 
+    text-decoration: line-through;
+}
+.task-in[completed]{
+    width:100%;
+    background-color: pink;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+.alert{
+    position: relative;
+    top:0px;
+    left:0px;
+    width:200px;
+}
